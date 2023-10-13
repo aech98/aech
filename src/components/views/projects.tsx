@@ -45,7 +45,7 @@ const Projects: FC<ProjectsProps> = () => {
 		    </Container>
 		    <ul className="grid grid-cols-[repeat(auto-fill,minmax(20rem,1fr))] gap-8">
 		      {PROJECTS.filter((proj) => !proj.featured).map((proj) => (
-		        <li key={proj.title} classNam="h-full">
+		        <li key={proj.title} className="h-full">
 		          <Container className="h-full flex flex-col">
 		          	<div className="flex items-center justify-between mb-4">
 		          		<span>{ <Folder className="w-8 h-8" /> }</span>

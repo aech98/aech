@@ -3,6 +3,7 @@ import { DM_Sans } from 'next/font/google';
 import { PropsWithChildren } from 'react';
 import { cn } from '@/lib/utils';
 import './globals.css';
+import QueryProvider from '@/components/query-provider';
 
 const font = DM_Sans({
   display: 'swap',
@@ -26,7 +27,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
           font.variable
         )}
       >
-        <div className="min-h-screen max-w-6xl mx-auto">{children}</div>
+        <div className="min-h-screen max-w-6xl mx-auto">
+          <QueryProvider>{children}</QueryProvider>
+        </div>
       </body>
     </html>
   );

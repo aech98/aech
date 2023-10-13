@@ -1,9 +1,11 @@
+'use client';
+
 import { FC } from 'react';
 import Image from 'next/image';
-import { Dot, MoveRight } from 'lucide-react';
 import { SOCIALS } from '@/assets/data';
 import { Anchor } from '@/components/ui/anchor';
 import { Container } from '@/components/ui/container';
+import QuotesGenerator from '../quote-generator';
 
 interface HeroProps {}
 
@@ -53,16 +55,7 @@ const Hero: FC<HeroProps> = () => {
           </Anchor>
         </div>
       </Container>
-      <Container className="min-h-[14rem] flex flex-col justify-between">
-        <h4 className="flex items-center space-x-4 text-xl font-semibold">
-          <Dot className="w-10 h-10" />
-          Available for opportunities
-        </h4>
-        <div className="flex items-center space-x-2">
-          <MoveRight className="h-6 w-6" />
-          <Anchor className="text-base">muhammedridwan02@gmail.com</Anchor>
-        </div>
-      </Container>
+      <QuotesGenerator />
       <Container className="hidden lg:row-span-2 lg:block">
         <div className="relative w-full h-full rounded-lg overflow-hidden">
           <Image
