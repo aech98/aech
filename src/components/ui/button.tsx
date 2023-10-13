@@ -14,7 +14,7 @@ const buttonVariants = cva(
           'border border-accent bg-accent/20 text-accent rounded-3xl hover:bg-accent hover:dark',
         primary:
           'bg-accent text-dark border border-accent rounded-2xl hover:bg-accent/20 hover:text-accent',
-        link: 'text-accent/80 cursor-pointer underline-offset-4 hover:underline',
+        link: 'text-accent/80 cursor-pointer hover:text-accent/60',
       },
       size: {
         default: null,

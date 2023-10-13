@@ -21,7 +21,7 @@ const Stacks: FC<StacksProps> = () => {
 
             return (
               <li key={index}>
-                <Badge className="w-full justify-center gap-x-4 text-base px-4 py-2">
+                <Badge className="w-full gap-x-4 text-base px-4 py-2">
                   <span>{<Icon className="w-6 h-6 md" />}</span>
                   {stack.name}
                 </Badge>

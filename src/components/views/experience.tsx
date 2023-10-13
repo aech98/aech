@@ -13,11 +13,11 @@ const Experience: FC<ExperienceProps> = () => {
       <Container className="w-max mb-4">
         <h2 className="text-2xl font-semibold">Experiences</h2>
       </Container>
-      <ul role="list" className="grid gap-y-8">
+      <ul role="list" className="flex flex-col space-y-8">
         {EXPERIENCES.map((exp) => (
           <li key={exp.company}>
-            <Container className="w-max border-b-0 rounded-es-none rounded-ee-none">
-              <div className="flex items-center space-x-4">
+            <Container className="border-b-0 rounded-es-none rounded-ee-none">
+              <div className="flex flex-wrap items-center gap-4">
                 <Anchor className="mb-2">{`@${exp.company}`}</Anchor>
                 <Badge variant="secondary">{exp.type}</Badge>
               </div>
