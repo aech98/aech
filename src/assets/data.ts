@@ -168,7 +168,7 @@ export const PROJECTS: ProjectType[] = [
       'A personal learning project developed to improve the knowledge of NextJS 13 and Sanity. It is an e-commerce website provides the flower bouquets to potential users.',
     image:
       'https://res.cloudinary.com/yheenca/image/upload/v1697196680/mine/Screenshot_from_2023-10-13_12-22-53_hgpoul.png',
-    link: 'https://aech-luxibouquet.vercel.app',
+    link: 'https://aech-luxibouqeut.vercel.app',
     github: 'https://github.com/aech98/aech-luxibouqeut',
     featured: true,
     stacks: [
