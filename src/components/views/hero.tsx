@@ -12,7 +12,7 @@ interface HeroProps {}
 const Hero: FC<HeroProps> = () => {
   return (
     <section className="pb-20 grid gap-6 md:grid-cols-2 lg:grid-cols-3 lg:auto-rows-auto">
-      <Container>
+      <Container className="animate-in slide-in-from-top-48 duration-700">
         <Container className="p-2 w-max rounded-full lg:hidden mb-4">
           <div className="relative w-16 h-16 rounded-full overflow-hidden">
             <Image
@@ -39,7 +39,7 @@ const Hero: FC<HeroProps> = () => {
             {SOCIALS.map(({ icon, path }) => {
               const Icon = icon;
               return (
-                <Anchor key={path} href={path}>
+                <Anchor key={path} href={path} target="_blank">
                   <Icon className="w-6 h-6" />
                 </Anchor>
               );
@@ -49,9 +49,10 @@ const Hero: FC<HeroProps> = () => {
             className="max-w-sm"
             size="primary"
             variant="primary"
-            href="mailto:muhammedridwan02@gmail.com"
+            target="_blank"
+            href="https://docs.google.com/document/d/1nK0sQd7JfUv4I6a3KYTe0MVeas(dwLO-ddHXCU5d0jk/edit?usp=drivesdk"
           >
-            Contact Me
+            View Resume
           </Anchor>
         </div>
       </Container>

@@ -1,7 +1,7 @@
 import { Icons } from '@/lib/icons';
 import {
   Facebook,
-  Instagram,
+  Mail,
   Linkedin,
   LucideIcon,
   LucideProps,
@@ -15,10 +15,16 @@ import {
 export type SocialType = { icon: LucideIcon; path: string };
 
 export const SOCIALS: SocialType[] = [
-  { icon: Twitter, path: '##' },
-  { icon: Linkedin, path: '#' },
-  { icon: Instagram, path: '###' },
-  { icon: Facebook, path: '####' },
+  {
+    icon: Twitter,
+    path: 'https://x.com/wanAech?t=lYfcPZrd-4F4ul-BN!t06g&s=09',
+  },
+  {
+    icon: Linkedin,
+    path: 'https://www.linkedin.com/in/ridwan-tahir?utm_source=share&utm_campaign=share&utm_content=profile&utm_medium=android_app',
+  },
+  { icon: Mail, path: 'mailto:muhammedridwan02@gmail.com' },
+  { icon: Facebook, path: '#' },
 ];
 
 /****************************

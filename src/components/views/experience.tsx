@@ -18,7 +18,10 @@ const Experience: FC<ExperienceProps> = () => {
           <li key={exp.company}>
             <Container className="border-b-0 rounded-es-none rounded-ee-none">
               <div className="flex flex-wrap items-center gap-4">
-                <Anchor className="mb-2">{`@${exp.company}`}</Anchor>
+                <Anchor
+                  className="mb-2"
+                  target="_blank"
+                >{`@${exp.company}`}</Anchor>
                 <Badge variant="secondary">{exp.type}</Badge>
               </div>
               <div className="flex items-center text-slate-200">
@@ -31,7 +34,7 @@ const Experience: FC<ExperienceProps> = () => {
                 {exp.gains.map((gain, index) => (
                   <li key={index} className="grid grid-cols-[max-content,1fr]">
                     <span className="pt-1.5 mr-2 text-accent/80">
-                    	<Circle className="w-1.5 h-1.5 fill-accent/80" />
+                      <Circle className="w-1.5 h-1.5 fill-accent/80" />
                     </span>
                     {gain}
                   </li>
