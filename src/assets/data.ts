@@ -84,6 +84,16 @@ export const EXPERIENCES: ExperienceType[] = [
       'Engaged in a dynamic STEAM program that offered summer courses to young minds, showcasing the wonders of mathematical concepts and their real-world applications in technology, ultimately contributing to a fresh avenue for revenue generation for the company.',
     ],
   },
+  {
+    company: 'Freelancing',
+    link: '',
+    duration: 'Aug 2021 - Jun 2022',
+    type: 'Freelancing',
+    gains: [
+      "Skillfully used frameworks such as Redux, Context API, and React Router to optimize development and improve user experiences.",
+      'Engaged in React.js communities on different platforms, actively contributing to projects and seeking mentorship. This immersion fostered a deeper understanding of best practices and encouraged continuous growth in React development.',
+    ],
+  },
 ];
 
 /****************************
