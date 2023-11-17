@@ -147,27 +147,27 @@ export const PROJECTS: ProjectType[] = [
       'Zustand',
     ],
   },
-  {
-    title: 'Quickly Marketplace',
-    description:
-      'A website in development with the view of providing a safe interactive platform for students to buy and sell products of their choices. I oversaw the development of the user interactions and integrations for the product.',
-    image:
-      'https://res.cloudinary.com/yheenca/image/upload/v1697196681/mine/Screenshot_from_2023-10-13_12-23-07_rycxtr.png',
-    link: 'https://quickly.com.ng',
-    github: '',
-    featured: true,
-    stacks: [
-      'JavaScript',
-      'ReactJS',
-      'Tailwind',
-      'Shadcn-UI',
-      'React Query',
-      'React-Hook-Form',
-      'Rest API',
-      'Yup',
-      'Zustand',
-    ],
-  },
+  // {
+  //   title: 'Quickly Marketplace',
+  //   description:
+  //     'A website in development with the view of providing a safe interactive platform for students to buy and sell products of their choices. I oversaw the development of the user interactions and integrations for the product.',
+  //   image:
+  //     'https://res.cloudinary.com/yheenca/image/upload/v1697196681/mine/Screenshot_from_2023-10-13_12-23-07_rycxtr.png',
+  //   link: 'https://quickly.com.ng',
+  //   github: '',
+  //   featured: true,
+  //   stacks: [
+  //     'JavaScript',
+  //     'ReactJS',
+  //     'Tailwind',
+  //     'Shadcn-UI',
+  //     'React Query',
+  //     'React-Hook-Form',
+  //     'Rest API',
+  //     'Yup',
+  //     'Zustand',
+  //   ],
+  // },
   {
     title: 'Aech Luxibouquet',
     description:
@@ -217,26 +217,26 @@ export const PROJECTS: ProjectType[] = [
       'Zod',
     ],
   },
-  {
-    title: '8Log',
-    description:
-      'A blog website built leveraging the power of fullstack NextJS 13. The development of the website was done with a view of practicing fullstack development with NextJS using cloud database from PlanetScale.',
-    image: '',
-    link: 'https://8log.vercel.app',
-    github: 'https://github.com/aech98/8log',
-    featured: false,
-    stacks: [
-      'TypeScript',
-      'NextJS',
-      'Tailwind',
-      'Shadcn-UI',
-      'React-Hook-Form',
-      'Zod',
-      'Zustand',
-      'Prisma',
-      'EditorJS',
-    ],
-  },
+  // {
+  //   title: '8Log',
+  //   description:
+  //     'A blog website built leveraging the power of fullstack NextJS 13. The development of the website was done with a view of practicing fullstack development with NextJS using cloud database from PlanetScale.',
+  //   image: '',
+  //   link: 'https://8log.vercel.app',
+  //   github: 'https://github.com/aech98/8log',
+  //   featured: false,
+  //   stacks: [
+  //     'TypeScript',
+  //     'NextJS',
+  //     'Tailwind',
+  //     'Shadcn-UI',
+  //     'React-Hook-Form',
+  //     'Zod',
+  //     'Zustand',
+  //     'Prisma',
+  //     'EditorJS',
+  //   ],
+  // },
   {
     title: 'Checkout Page',
     description:

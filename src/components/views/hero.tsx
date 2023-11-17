@@ -50,7 +50,7 @@ const Hero: FC<HeroProps> = () => {
             size="primary"
             variant="primary"
             target="_blank"
-            href="https://docs.google.com/document/d/1nK0sQd7JfUv4I6a3KYTe0MVeas(dwLO-ddHXCU5d0jk/edit?usp=drivesdk"
+            href="https://docs.google.com/document/d/1nK0sQd7JfUv4I6a3KYTe0MVeas9dwLO-ddHXCU5d0jk/edit?usp=sharing"
           >
             View Resume
           </Anchor>
